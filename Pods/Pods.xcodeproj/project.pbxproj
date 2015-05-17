@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16263276D3A57E6DF342B28E /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C36DC1A0EA5B940165AC46F1 /* MASLayoutConstraint.m */; };
+		1708BC1B9E39051176BE63B5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF65C551B5680DB6FBE9308 /* MASConstraint.m */; };
+		27AB4BE9320FF9F453B93CB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292C9F19190CC4951E3E0773 /* Foundation.framework */; };
+		384E265861587C14213B327B /* Pods-MyFiveGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCBB8292227AC3271FCC8F1 /* Pods-MyFiveGame-dummy.m */; };
+		4AB5B2BE99503633DBB72A66 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C6FD69BAEB6509BA038E907 /* Masonry.h */; };
+		4BE1DC50B0B5990009C3DECD /* Pods-MyFiveGame-Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 706D79AA3A2A672F9ABEEE8F /* Pods-MyFiveGame-Masonry-dummy.m */; };
+		5DD642358EF586538A700F6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292C9F19190CC4951E3E0773 /* Foundation.framework */; };
+		5F2AFEA4F9E5303A15C7B41F /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 53280CC511F24B33FB03DA57 /* MASViewAttribute.h */; };
+		6BDB2484A1D4F90721E1ACDF /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AD246A22967F4832AD9DF44A /* NSArray+MASShorthandAdditions.h */; };
+		7741C1FDCEA14B5BB87C478C /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 048D2CA47C585E7EC0579307 /* MASConstraint.h */; };
+		7F60B4C4E276DEFBBAD0328F /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D3F48D829F77F034B56C24 /* MASUtilities.h */; };
+		9E87BFB404892735E41393AA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 191FFEE39F1501F2326840F6 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		9F3167F6353B3F3BAF57BB2C /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0410C141BC29733EF7EBFCCD /* MASConstraintMaker.h */; };
+		B02E88119E73AD79D8990477 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50770DFEA1063C2892917B /* UIKit.framework */; };
+		B2365661DD393355807AF20E /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5397609EDE4A181DD7DB9E84 /* MASViewAttribute.m */; };
+		B509715376B7F34EC589C24D /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 109FFCFBD475077FAB5D76F5 /* MASConstraint+Private.h */; };
+		BD88BF975BFE61E3CB2DD5D7 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCD5EF2CC6363E4B72112EB /* View+MASShorthandAdditions.h */; };
+		BD9992E58B00CB5BA5E69893 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B5CC2A4D864291D82918D2 /* MASViewConstraint.h */; };
+		BF55F0DA86126A7C6E2C4D55 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E05CA200E6504239DA7184B3 /* MASCompositeConstraint.h */; };
+		C223EFE5EB6DEB78B818928E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FB94D5C240E37CA4BE1093 /* MASLayoutConstraint.h */; };
+		C463DEAFEE791D1E2FCA6C3D /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB8AD9CAF41995B714197BA /* View+MASAdditions.h */; };
+		C9F76F7B74E098DB4654A1AE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4427034F73FB01ADA1E7F759 /* MASCompositeConstraint.m */; };
+		CF2C59572F1248A62C4E47BA /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A70D0A5B3F5F74B93F6234 /* NSArray+MASAdditions.h */; };
+		E6747D6296FC0C46CE7603C7 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FFCF1E6107C0B9321E326D /* MASViewConstraint.m */; };
+		ED8154302730681DA0BC56C6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D4CF7813373B73756C1054 /* NSLayoutConstraint+MASDebugAdditions.h */; };
+		F03C258459EE8AE8AD4CBFF1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6940DC1D29A0EE91D4EA02B0 /* MASConstraintMaker.m */; };
+		F335E5584F9CE914D871ED0D /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9A434C9F45B2C976F361F /* View+MASAdditions.m */; };
+		F5736B0CFBDFDA6FC852EE68 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F3CADE7DCD27758CFBEF67 /* NSArray+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B1A92CA7FC9E7AD3DEBE6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C1C39FAABDE1EE454864574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9FD79BC46942117E8B8869;
+			remoteInfo = "Pods-MyFiveGame-Masonry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D4CF7813373B73756C1054 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0410C141BC29733EF7EBFCCD /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		048D2CA47C585E7EC0579307 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		04FB94D5C240E37CA4BE1093 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		054ACD6847855859F4777C38 /* Pods-MyFiveGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFiveGame.release.xcconfig"; sourceTree = "<group>"; };
+		083F07C756D5D43041FF3892 /* Pods-MyFiveGame-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFiveGame-environment.h"; sourceTree = "<group>"; };
+		109FFCFBD475077FAB5D76F5 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		191FFEE39F1501F2326840F6 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		1D10451EE9827730E5C7F860 /* Pods-MyFiveGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyFiveGame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DA9A434C9F45B2C976F361F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		292C9F19190CC4951E3E0773 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C6FD69BAEB6509BA038E907 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		4427034F73FB01ADA1E7F759 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		45F3CADE7DCD27758CFBEF67 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		51099CD02351285C9AE36F52 /* Pods-MyFiveGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyFiveGame-acknowledgements.plist"; sourceTree = "<group>"; };
+		53280CC511F24B33FB03DA57 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		5397609EDE4A181DD7DB9E84 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		5BCBB8292227AC3271FCC8F1 /* Pods-MyFiveGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyFiveGame-dummy.m"; sourceTree = "<group>"; };
+		5CD704C14A109587CC970EC6 /* Pods-MyFiveGame-Masonry-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFiveGame-Masonry-Private.xcconfig"; sourceTree = "<group>"; };
+		5EC5104DF0680F3E40ADB06C /* libPods-MyFiveGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyFiveGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6940DC1D29A0EE91D4EA02B0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		706D79AA3A2A672F9ABEEE8F /* Pods-MyFiveGame-Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyFiveGame-Masonry-dummy.m"; sourceTree = "<group>"; };
+		81EA7CFBF2394F6D540AF3E1 /* Pods-MyFiveGame-Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFiveGame-Masonry.xcconfig"; sourceTree = "<group>"; };
+		948A37886B48AAFBA28672DC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A70D0A5B3F5F74B93F6234 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		99DD3D801364498E89E0D7C4 /* Pods-MyFiveGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFiveGame.debug.xcconfig"; sourceTree = "<group>"; };
+		AD246A22967F4832AD9DF44A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		AE50770DFEA1063C2892917B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B5B5CC2A4D864291D82918D2 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		C36DC1A0EA5B940165AC46F1 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		C4AB8D84812A3860FF569B89 /* Pods-MyFiveGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyFiveGame-resources.sh"; sourceTree = "<group>"; };
+		CEB8AD9CAF41995B714197BA /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		CEF65C551B5680DB6FBE9308 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		D4D3F48D829F77F034B56C24 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		DBE93517722DC930711A4453 /* Pods-MyFiveGame-Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFiveGame-Masonry-prefix.pch"; sourceTree = "<group>"; };
+		E05CA200E6504239DA7184B3 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		E4FFCF1E6107C0B9321E326D /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		E6744EA2152AAC20A1DBE2D9 /* libPods-MyFiveGame-Masonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyFiveGame-Masonry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCD5EF2CC6363E4B72112EB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001AC380C7F7D342E7EEC7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD642358EF586538A700F6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA4A8D1C3E9499B2EB0C874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AB4BE9320FF9F453B93CB1 /* Foundation.framework in Frameworks */,
+				B02E88119E73AD79D8990477 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015E5E8DEDD689C075B5A46E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25CC05199FE2F1FE721EF94C /* Pods-MyFiveGame */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		139D56AFF0BBA62D1C7C8F83 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E05CA200E6504239DA7184B3 /* MASCompositeConstraint.h */,
+				4427034F73FB01ADA1E7F759 /* MASCompositeConstraint.m */,
+				048D2CA47C585E7EC0579307 /* MASConstraint.h */,
+				CEF65C551B5680DB6FBE9308 /* MASConstraint.m */,
+				109FFCFBD475077FAB5D76F5 /* MASConstraint+Private.h */,
+				0410C141BC29733EF7EBFCCD /* MASConstraintMaker.h */,
+				6940DC1D29A0EE91D4EA02B0 /* MASConstraintMaker.m */,
+				04FB94D5C240E37CA4BE1093 /* MASLayoutConstraint.h */,
+				C36DC1A0EA5B940165AC46F1 /* MASLayoutConstraint.m */,
+				D4D3F48D829F77F034B56C24 /* MASUtilities.h */,
+				53280CC511F24B33FB03DA57 /* MASViewAttribute.h */,
+				5397609EDE4A181DD7DB9E84 /* MASViewAttribute.m */,
+				B5B5CC2A4D864291D82918D2 /* MASViewConstraint.h */,
+				E4FFCF1E6107C0B9321E326D /* MASViewConstraint.m */,
+				3C6FD69BAEB6509BA038E907 /* Masonry.h */,
+				95A70D0A5B3F5F74B93F6234 /* NSArray+MASAdditions.h */,
+				45F3CADE7DCD27758CFBEF67 /* NSArray+MASAdditions.m */,
+				AD246A22967F4832AD9DF44A /* NSArray+MASShorthandAdditions.h */,
+				03D4CF7813373B73756C1054 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				191FFEE39F1501F2326840F6 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CEB8AD9CAF41995B714197BA /* View+MASAdditions.h */,
+				1DA9A434C9F45B2C976F361F /* View+MASAdditions.m */,
+				FBCD5EF2CC6363E4B72112EB /* View+MASShorthandAdditions.h */,
+				1EB31B1DD90E79D87605CFE2 /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		162E5B4F133ED66423C7F218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				139D56AFF0BBA62D1C7C8F83 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1EB31B1DD90E79D87605CFE2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81EA7CFBF2394F6D540AF3E1 /* Pods-MyFiveGame-Masonry.xcconfig */,
+				5CD704C14A109587CC970EC6 /* Pods-MyFiveGame-Masonry-Private.xcconfig */,
+				706D79AA3A2A672F9ABEEE8F /* Pods-MyFiveGame-Masonry-dummy.m */,
+				DBE93517722DC930711A4453 /* Pods-MyFiveGame-Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MyFiveGame-Masonry";
+			sourceTree = "<group>";
+		};
+		25CC05199FE2F1FE721EF94C /* Pods-MyFiveGame */ = {
+			isa = PBXGroup;
+			children = (
+				1D10451EE9827730E5C7F860 /* Pods-MyFiveGame-acknowledgements.markdown */,
+				51099CD02351285C9AE36F52 /* Pods-MyFiveGame-acknowledgements.plist */,
+				5BCBB8292227AC3271FCC8F1 /* Pods-MyFiveGame-dummy.m */,
+				083F07C756D5D43041FF3892 /* Pods-MyFiveGame-environment.h */,
+				C4AB8D84812A3860FF569B89 /* Pods-MyFiveGame-resources.sh */,
+				99DD3D801364498E89E0D7C4 /* Pods-MyFiveGame.debug.xcconfig */,
+				054ACD6847855859F4777C38 /* Pods-MyFiveGame.release.xcconfig */,
+			);
+			name = "Pods-MyFiveGame";
+			path = "Target Support Files/Pods-MyFiveGame";
+			sourceTree = "<group>";
+		};
+		4C8E6327128BC414AB398A75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7399CC041DA13B2A3BFCCDA9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7399CC041DA13B2A3BFCCDA9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				292C9F19190CC4951E3E0773 /* Foundation.framework */,
+				AE50770DFEA1063C2892917B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		810AA48CA0E46B650D66C542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC5104DF0680F3E40ADB06C /* libPods-MyFiveGame.a */,
+				E6744EA2152AAC20A1DBE2D9 /* libPods-MyFiveGame-Masonry.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3C49BFA60CCE503C09EB1F = {
+			isa = PBXGroup;
+			children = (
+				948A37886B48AAFBA28672DC /* Podfile */,
+				4C8E6327128BC414AB398A75 /* Frameworks */,
+				162E5B4F133ED66423C7F218 /* Pods */,
+				810AA48CA0E46B650D66C542 /* Products */,
+				015E5E8DEDD689C075B5A46E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05A4E694CBC8A2DEAEF6E855 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF55F0DA86126A7C6E2C4D55 /* MASCompositeConstraint.h in Headers */,
+				B509715376B7F34EC589C24D /* MASConstraint+Private.h in Headers */,
+				7741C1FDCEA14B5BB87C478C /* MASConstraint.h in Headers */,
+				9F3167F6353B3F3BAF57BB2C /* MASConstraintMaker.h in Headers */,
+				C223EFE5EB6DEB78B818928E /* MASLayoutConstraint.h in Headers */,
+				7F60B4C4E276DEFBBAD0328F /* MASUtilities.h in Headers */,
+				5F2AFEA4F9E5303A15C7B41F /* MASViewAttribute.h in Headers */,
+				BD9992E58B00CB5BA5E69893 /* MASViewConstraint.h in Headers */,
+				4AB5B2BE99503633DBB72A66 /* Masonry.h in Headers */,
+				CF2C59572F1248A62C4E47BA /* NSArray+MASAdditions.h in Headers */,
+				6BDB2484A1D4F90721E1ACDF /* NSArray+MASShorthandAdditions.h in Headers */,
+				ED8154302730681DA0BC56C6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				C463DEAFEE791D1E2FCA6C3D /* View+MASAdditions.h in Headers */,
+				BD88BF975BFE61E3CB2DD5D7 /* View+MASShorthandAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F9FD79BC46942117E8B8869 /* Pods-MyFiveGame-Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24EF74A77500B4F2E13D306D /* Build configuration list for PBXNativeTarget "Pods-MyFiveGame-Masonry" */;
+			buildPhases = (
+				8D7542002DFCDE8E84503E24 /* Sources */,
+				9CA4A8D1C3E9499B2EB0C874 /* Frameworks */,
+				05A4E694CBC8A2DEAEF6E855 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyFiveGame-Masonry";
+			productName = "Pods-MyFiveGame-Masonry";
+			productReference = E6744EA2152AAC20A1DBE2D9 /* libPods-MyFiveGame-Masonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		476419E09D6CD5ACA61A33F0 /* Pods-MyFiveGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D5645D88844D1FD3965ACE /* Build configuration list for PBXNativeTarget "Pods-MyFiveGame" */;
+			buildPhases = (
+				1AB370B26CCBD78C7C2CE6A0 /* Sources */,
+				001AC380C7F7D342E7EEC7BB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3980E71CD55C88375B874846 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyFiveGame";
+			productName = "Pods-MyFiveGame";
+			productReference = 5EC5104DF0680F3E40ADB06C /* libPods-MyFiveGame.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C1C39FAABDE1EE454864574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 5F9B7EB4646E81305989AA4B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE3C49BFA60CCE503C09EB1F;
+			productRefGroup = 810AA48CA0E46B650D66C542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				476419E09D6CD5ACA61A33F0 /* Pods-MyFiveGame */,
+				1F9FD79BC46942117E8B8869 /* Pods-MyFiveGame-Masonry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB370B26CCBD78C7C2CE6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384E265861587C14213B327B /* Pods-MyFiveGame-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7542002DFCDE8E84503E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F76F7B74E098DB4654A1AE /* MASCompositeConstraint.m in Sources */,
+				1708BC1B9E39051176BE63B5 /* MASConstraint.m in Sources */,
+				F03C258459EE8AE8AD4CBFF1 /* MASConstraintMaker.m in Sources */,
+				16263276D3A57E6DF342B28E /* MASLayoutConstraint.m in Sources */,
+				B2365661DD393355807AF20E /* MASViewAttribute.m in Sources */,
+				E6747D6296FC0C46CE7603C7 /* MASViewConstraint.m in Sources */,
+				F5736B0CFBDFDA6FC852EE68 /* NSArray+MASAdditions.m in Sources */,
+				9E87BFB404892735E41393AA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				4BE1DC50B0B5990009C3DECD /* Pods-MyFiveGame-Masonry-dummy.m in Sources */,
+				F335E5584F9CE914D871ED0D /* View+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3980E71CD55C88375B874846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyFiveGame-Masonry";
+			target = 1F9FD79BC46942117E8B8869 /* Pods-MyFiveGame-Masonry */;
+			targetProxy = 4B1A92CA7FC9E7AD3DEBE6C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25CCC1E2992D7176DD908AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DD3D801364498E89E0D7C4 /* Pods-MyFiveGame.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7034B2B1836C7ECA47614338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		75605CED7ADC069E465DA2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD704C14A109587CC970EC6 /* Pods-MyFiveGame-Masonry-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyFiveGame-Masonry/Pods-MyFiveGame-Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93004E97DE8DBFE99C8F889F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD704C14A109587CC970EC6 /* Pods-MyFiveGame-Masonry-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MyFiveGame-Masonry/Pods-MyFiveGame-Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B6DB25BBF96CC4A90BC2C539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054ACD6847855859F4777C38 /* Pods-MyFiveGame.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F952FEC042876B77A010A5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D5645D88844D1FD3965ACE /* Build configuration list for PBXNativeTarget "Pods-MyFiveGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25CCC1E2992D7176DD908AA4 /* Debug */,
+				B6DB25BBF96CC4A90BC2C539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24EF74A77500B4F2E13D306D /* Build configuration list for PBXNativeTarget "Pods-MyFiveGame-Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75605CED7ADC069E465DA2CB /* Debug */,
+				93004E97DE8DBFE99C8F889F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9B7EB4646E81305989AA4B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7034B2B1836C7ECA47614338 /* Debug */,
+				F952FEC042876B77A010A5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C1C39FAABDE1EE454864574 /* Project object */;
+}
