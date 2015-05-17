@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		539259750CAB364E514677D2 /* libPods-MyFiveGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7CA2F5A89B13319E243354 /* libPods-MyFiveGame.a */; };
 		C504A69B1AB3F9AD0059EF6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C504A69A1AB3F9AD0059EF6E /* main.m */; };
 		C504A69E1AB3F9AD0059EF6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C504A69D1AB3F9AD0059EF6E /* AppDelegate.m */; };
-		C504A6A11AB3F9AD0059EF6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C504A6A01AB3F9AD0059EF6E /* ViewController.m */; };
 		C504A6A41AB3F9AD0059EF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C504A6A21AB3F9AD0059EF6E /* Main.storyboard */; };
 		C504A6A61AB3F9AD0059EF6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C504A6A51AB3F9AD0059EF6E /* Images.xcassets */; };
 		C504A6A91AB3F9AD0059EF6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C504A6A71AB3F9AD0059EF6E /* LaunchScreen.xib */; };
 		C504A6B51AB3F9AD0059EF6E /* MyFiveGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C504A6B41AB3F9AD0059EF6E /* MyFiveGameTests.m */; };
+		C59BF5551AC7D41600233C98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BF5541AC7D41600233C98 /* ViewController.m */; };
+		C59BF55A1AC7D52C00233C98 /* ChessBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BF5591AC7D52C00233C98 /* ChessBoardView.m */; };
+		C59BF55D1AC7D55D00233C98 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BF55C1AC7D55D00233C98 /* GameViewController.m */; };
+		C59BF5601AC7D58000233C98 /* ChessButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BF55F1AC7D58000233C98 /* ChessButton.m */; };
+		C5A873781ADBE82700060BE2 /* WinFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A873771ADBE82700060BE2 /* WinFunctionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +32,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6360D023E669B87F5E4C9082 /* Pods-MyFiveGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFiveGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFiveGame/Pods-MyFiveGame.release.xcconfig"; sourceTree = "<group>"; };
+		8F7CA2F5A89B13319E243354 /* libPods-MyFiveGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyFiveGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F37BB0246B683EB87ED5A3B /* Pods-MyFiveGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFiveGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFiveGame/Pods-MyFiveGame.debug.xcconfig"; sourceTree = "<group>"; };
 		C504A6951AB3F9AD0059EF6E /* MyFiveGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFiveGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C504A6991AB3F9AD0059EF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C504A69A1AB3F9AD0059EF6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C504A69C1AB3F9AD0059EF6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C504A69D1AB3F9AD0059EF6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C504A69F1AB3F9AD0059EF6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C504A6A01AB3F9AD0059EF6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C504A6A31AB3F9AD0059EF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C504A6A51AB3F9AD0059EF6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C504A6A81AB3F9AD0059EF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C504A6AE1AB3F9AD0059EF6E /* MyFiveGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFiveGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C504A6B31AB3F9AD0059EF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C504A6B41AB3F9AD0059EF6E /* MyFiveGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFiveGameTests.m; sourceTree = "<group>"; };
+		C59BF5531AC7D41600233C98 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C59BF5541AC7D41600233C98 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C59BF5581AC7D52C00233C98 /* ChessBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoardView.h; sourceTree = "<group>"; };
+		C59BF5591AC7D52C00233C98 /* ChessBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoardView.m; sourceTree = "<group>"; };
+		C59BF55B1AC7D55D00233C98 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C59BF55C1AC7D55D00233C98 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C59BF55E1AC7D58000233C98 /* ChessButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessButton.h; sourceTree = "<group>"; };
+		C59BF55F1AC7D58000233C98 /* ChessButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessButton.m; sourceTree = "<group>"; };
+		C59BF5611AC7DCAA00233C98 /* MyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDefine.h; sourceTree = "<group>"; };
+		C5A873761ADBE82700060BE2 /* WinFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinFunctionModel.h; sourceTree = "<group>"; };
+		C5A873771ADBE82700060BE2 /* WinFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinFunctionModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539259750CAB364E514677D2 /* libPods-MyFiveGame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +78,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29AA9FC9EBDC3E8452EF816D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F37BB0246B683EB87ED5A3B /* Pods-MyFiveGame.debug.xcconfig */,
+				6360D023E669B87F5E4C9082 /* Pods-MyFiveGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83567808B83314A559182E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F7CA2F5A89B13319E243354 /* libPods-MyFiveGame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C504A68C1AB3F9AD0059EF6E = {
 			isa = PBXGroup;
 			children = (
 				C504A6971AB3F9AD0059EF6E /* MyFiveGame */,
 				C504A6B11AB3F9AD0059EF6E /* MyFiveGameTests */,
 				C504A6961AB3F9AD0059EF6E /* Products */,
+				29AA9FC9EBDC3E8452EF816D /* Pods */,
+				83567808B83314A559182E3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +118,17 @@
 		C504A6971AB3F9AD0059EF6E /* MyFiveGame */ = {
 			isa = PBXGroup;
 			children = (
+				C59BF5611AC7DCAA00233C98 /* MyDefine.h */,
 				C504A69C1AB3F9AD0059EF6E /* AppDelegate.h */,
 				C504A69D1AB3F9AD0059EF6E /* AppDelegate.m */,
-				C504A69F1AB3F9AD0059EF6E /* ViewController.h */,
-				C504A6A01AB3F9AD0059EF6E /* ViewController.m */,
 				C504A6A21AB3F9AD0059EF6E /* Main.storyboard */,
 				C504A6A51AB3F9AD0059EF6E /* Images.xcassets */,
 				C504A6A71AB3F9AD0059EF6E /* LaunchScreen.xib */,
+				C59BF5571AC7D48D00233C98 /* Public */,
+				C59BF5561AC7D45D00233C98 /* Category */,
+				C5A873751ADBE71C00060BE2 /* Model */,
+				C59BF5511AC7D33300233C98 /* View */,
+				C59BF5521AC7D33C00233C98 /* ViewController */,
 				C504A6981AB3F9AD0059EF6E /* Supporting Files */,
 			);
 			path = MyFiveGame;
@@ -119,6 +160,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C59BF5511AC7D33300233C98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C59BF5581AC7D52C00233C98 /* ChessBoardView.h */,
+				C59BF5591AC7D52C00233C98 /* ChessBoardView.m */,
+				C59BF55E1AC7D58000233C98 /* ChessButton.h */,
+				C59BF55F1AC7D58000233C98 /* ChessButton.m */,
+			);
+			indentWidth = 4;
+			path = View;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		C59BF5521AC7D33C00233C98 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C59BF5531AC7D41600233C98 /* ViewController.h */,
+				C59BF5541AC7D41600233C98 /* ViewController.m */,
+				C59BF55B1AC7D55D00233C98 /* GameViewController.h */,
+				C59BF55C1AC7D55D00233C98 /* GameViewController.m */,
+			);
+			name = ViewController;
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		C59BF5561AC7D45D00233C98 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C59BF5571AC7D48D00233C98 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C5A873751ADBE71C00060BE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5A873761ADBE82700060BE2 /* WinFunctionModel.h */,
+				C5A873771ADBE82700060BE2 /* WinFunctionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C504A6B81AB3F9AD0059EF6E /* Build configuration list for PBXNativeTarget "MyFiveGame" */;
 			buildPhases = (
+				2F2309C517970B46910FB977 /* Check Pods Manifest.lock */,
 				C504A6911AB3F9AD0059EF6E /* Sources */,
 				C504A6921AB3F9AD0059EF6E /* Frameworks */,
 				C504A6931AB3F9AD0059EF6E /* Resources */,
+				C49ACCD65BD91A1898C225A3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +307,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F2309C517970B46910FB977 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C49ACCD65BD91A1898C225A3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFiveGame/Pods-MyFiveGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C504A6911AB3F9AD0059EF6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C504A6A11AB3F9AD0059EF6E /* ViewController.m in Sources */,
+				C59BF55D1AC7D55D00233C98 /* GameViewController.m in Sources */,
+				C59BF55A1AC7D52C00233C98 /* ChessBoardView.m in Sources */,
+				C59BF5601AC7D58000233C98 /* ChessButton.m in Sources */,
+				C59BF5551AC7D41600233C98 /* ViewController.m in Sources */,
 				C504A69E1AB3F9AD0059EF6E /* AppDelegate.m in Sources */,
+				C5A873781ADBE82700060BE2 /* WinFunctionModel.m in Sources */,
 				C504A69B1AB3F9AD0059EF6E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +471,10 @@
 		};
 		C504A6B91AB3F9AD0059EF6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F37BB0246B683EB87ED5A3B /* Pods-MyFiveGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyFiveGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +483,10 @@
 		};
 		C504A6BA1AB3F9AD0059EF6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6360D023E669B87F5E4C9082 /* Pods-MyFiveGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyFiveGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +546,7 @@
 				C504A6BA1AB3F9AD0059EF6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C504A6BB1AB3F9AD0059EF6E /* Build configuration list for PBXNativeTarget "MyFiveGameTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +555,7 @@
 				C504A6BD1AB3F9AD0059EF6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
